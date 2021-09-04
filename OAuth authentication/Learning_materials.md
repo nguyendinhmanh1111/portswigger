@@ -27,11 +27,11 @@ người dùng đăng nhập bằng tài khoản mạng xã hội của họ. Vi
 ![image](https://user-images.githubusercontent.com/76999751/132077936-0e587769-d4c6-48de-a540-ca8f1c93abd1.png)
 
 - http history:
-
+- một request để xác minh người dùng của ứng dụng web
 ![image](https://user-images.githubusercontent.com/76999751/132078393-d99ad5c7-5302-40e0-9f87-bf6367048f60.png)
 
+- Ở đây, ứng dựng web gửi các thông tin đăng nhập của người dùng lên backend để xác minh người dùng nhằm mục đích đăng nhập. Tuy nhiên, backend lại chỉ sử dụng email để thực hiện xác minh thay vì cặp key-pair giữa email và token. Lợi dụng điểm này, ta có thể thay email của mình thành email của người khác (cụ thể ở bài này là Carlos) để có được quyền truy cập vào tài khoản của họ.
 - thay đổi object email 
-
 ![image](https://user-images.githubusercontent.com/76999751/132078520-985cd023-86c7-481c-9e5a-0c824d6f0f8c.png)
 
 - Request browser 
