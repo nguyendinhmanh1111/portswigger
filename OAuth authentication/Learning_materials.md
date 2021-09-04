@@ -17,7 +17,7 @@
 xã hội để yêu cầu quyền truy cập vào một số dữ liệu mà nó có thể sử dụng để xác định người dùng. 
 `Ví dụ: đây có thể là địa chỉ email được đăng ký với tài khoản của họ.`
 2. Sau khi nhận được access token, client sẽ request dữ liệu từ source server 
-3. Khi nó đã nhận được dữ liệu, ứng dụng khách sẽ sử dụng nó thay cho tên người dùng để đăng nhập người dùng.
+3. Khi nó đã nhận được dữ liệu, ứng dụng client sẽ sử dụng nó thay cho tên người dùng để đăng nhập người dùng.
    Mã thông báo truy cập mà nó nhận được từ máy chủ ủy quyền thường được sử dụng thay vì mật khẩu truyền thống.
 
 ## 4. Lab: Authentication bypass via OAuth implicit flow
