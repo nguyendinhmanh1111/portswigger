@@ -26,8 +26,24 @@ người dùng đăng nhập bằng tài khoản mạng xã hội của họ. Vi
 
 ![image](https://user-images.githubusercontent.com/76999751/132077936-0e587769-d4c6-48de-a540-ca8f1c93abd1.png)
 
-  
-  
+- http history:
+
+![image](https://user-images.githubusercontent.com/76999751/132078393-d99ad5c7-5302-40e0-9f87-bf6367048f60.png)
+
+- thay đổi object email 
+
+![image](https://user-images.githubusercontent.com/76999751/132078520-985cd023-86c7-481c-9e5a-0c824d6f0f8c.png)
+
+- Request browser 
+
+![image](https://user-images.githubusercontent.com/76999751/132078547-6fb430d2-5448-491b-a59d-1e1751055f4a.png)
+
+- Với session mới của user carlot ta dễ dàng đăng nhập được
+
+![image](https://user-images.githubusercontent.com/76999751/132078590-e7f31c81-a6a5-47da-8e66-ef2a607281dd.png)
+
+
+
   
   
   
