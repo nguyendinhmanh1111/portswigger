@@ -42,7 +42,21 @@ người dùng đăng nhập bằng tài khoản mạng xã hội của họ. Vi
 
 ![image](https://user-images.githubusercontent.com/76999751/132078590-e7f31c81-a6a5-47da-8e66-ef2a607281dd.png)
 
+## 5. Nguyên nhân phát sinh lỗ hổng
+- xác thực đầu vào yếu
+- cấu hình bảo mật sai
+- rò rỉ dữ liệu nhạy cảm
 
+## 6. Identifying OAuth authentication
+Nhận biết khi ứng dụng đang sử dụng xác thực OAuth tương đối đơn giản. Nếu bạn thấy tùy chọn đăng nhập bằng tài khoản của mình từ một trang web khác, thì đây là dấu hiệu mạnh mẽ cho thấy OAuth đang được sử dụng.
+
+Cách đáng tin cậy nhất để xác định xác thực OAuth là proxy truy cập của bạn thông qua Burp và kiểm tra các thông báo HTTP luôn luôn request đến  `/authorization` endpoint
+
+VD:
+```http
+GET /authorization?client_id=12345&redirect_uri=https://client-app.com/callback&response_type=token&scope=openid%20profile&state=ae13d489bd00e3c24 HTTP/1.1
+Host: oauth-authorization-server.com
+```
 
   
   
