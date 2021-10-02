@@ -11,7 +11,7 @@ Host: portswigger.net
 ```
 - Host có thể bị thay đổi khi đến back-end
 
-### the purpose of the HTTP Host header
+### The purpose of the HTTP Host header
 
 - Mục đích của tiêu đề Máy chủ HTTP là giúp xác định thành phần back-end nào mà máy khách muốn giao tiếp.
 - Nếu các yêu cầu không chứa tiêu đề Máy chủ lưu trữ hoặc nếu tiêu đề Máy chủ lưu trữ không đúng định dạng theo một cách nào đó, điều này có thể dẫn đến sự cố khi định tuyến các yêu cầu đến ứng dụng dự kiến.
